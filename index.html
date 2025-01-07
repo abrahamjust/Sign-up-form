@@ -15,14 +15,51 @@
             <p class="credits">Photo by <span style="text-decoration: underline;">Halie West</span> on <span style="text-decoration: underline;">Unsplash</span></p>
         </div>
         <div class="right">
-            <p>This is not a real online service. You know you need something like this in your life to help you realise your deepest darkest dreams. Sign up <em>now</em> to get started</p>
-            <p>You know you want to.</p>
-            <div class="Form">
-                <p>Let's do this!</p>
-                <form action="" method="post">
-                    <button type="submit">Create Account</button>
-                </form>
-            </div>
+            <p class="para_one">This is not a real online service. You know you need something like this in your life to help you realise your deepest darkest dreams. Sign up <em>now</em> to get started</p>
+            <p class="para_two">You know you want to.</p>
+            <form action="" method="post">
+                <div class="form">
+                    <p class="form_para">Let's do this!</p>
+
+                <div class="two-col">
+                    <div class="col1">
+                        <label for="firstName">FIRST NAME</label>
+                        <input id="firstName" name="name" type="text">
+                    </div>
+                
+                    <div class="col2">
+                        <label for="lastName">LAST NAME</label>
+                        <input id="lastName" name="name" type="text">
+                    </div>
+                </div>
+                
+                <div class="two-col">
+                    <div class="col1">
+                        <label for="email">EMAIL</label>
+                        <input id="email" name="userEmail" type="email">
+                    </div>
+                
+                    <div class="col2">
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input id="phoneNumber" name="phone" type="tel">
+                    </div>
+                </div>
+
+                <div class="two-col">
+                    <div class="col1">
+                        <label for="password">PASSWORD</label>
+                        <input id="password" name="password" type="password" required>
+                    </div>
+                
+                    <div class="col2">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input id="confirmPassword" name="confirmPassword" type="password" required>
+                    </div>
+                </div>
+                </div>
+                <button type="submit">Create Account</button>
+                <p class="account">Already have an account? <span style="color: #596D48;"><strong>Log in</strong></span></p>
+            </form>
         </div>
     </body>
 </html>
